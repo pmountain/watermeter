@@ -101,7 +101,7 @@ func main() {
    e.counter = 12349
    e.flag = true
 
-   fmt.Printf("\n\n\n\n\n\n\n\n\n\n")
+   fmt.Printf("\n\n\n\n\n\n\n\n\n")
    fmt.Printf("\t\t\t\t\t\tEntering Main\n\n")
    fmt.Printf("var a int \t %T [%v] \n", a, a)
    fmt.Printf("var b string \t %T [%s] [%v] \n", b, b, b)
@@ -119,7 +119,7 @@ func main() {
    cc := 3.14159265358979323846
    dd := true
 
-   fmt.Printf("aa := 1000000000000000 \t %T [%v] \n", aa, aa)
+   fmt.Printf("aa := 10000000000000 \t %T [%v] \n", aa, aa)
    fmt.Printf("bb := \"Hello, World!\" \t %T [%s] [%v] \n", bb, bb, bb)
    fmt.Printf("cc := 3.14159265358979323846 \t %T [%0.8f] [%v] \n", cc, cc, cc)
    fmt.Printf("dd := true \t %T [%v] \n\n\n\n", dd, dd)
