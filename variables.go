@@ -9,7 +9,7 @@ type peter struct {
 }
 
 func incrementp(a *int) {
-   println("\t\t\t\t\t\tEntering incrementp\n\n")
+   println("\t\t\t\t\t\t\tEntering incrementp\n\n")
    // *a is the value held in the address of &a - the leter in the postbox
    // &a is the address of this local (a *int) - the new postbox address 
    // a is the value of what was passed (an address) from func point2 - the original postbox address that holds *a
